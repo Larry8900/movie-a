@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2bc7c8ac.css",
+    "main.js": "/static/js/main.75f96bec.js",
+    "static/media/john-wik.jpg": "/static/media/john-wik.c16f52c129c7d77801e5.jpg",
+    "index.html": "/index.html",
+    "main.2bc7c8ac.css.map": "/static/css/main.2bc7c8ac.css.map",
+    "main.75f96bec.js.map": "/static/js/main.75f96bec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc7c8ac.css",
+    "static/js/main.75f96bec.js"
+  ]
+}
