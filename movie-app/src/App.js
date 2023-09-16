@@ -6,7 +6,7 @@ import {Navbar, Container, Nav,Form, FormControl, Button} from 'react-bootstrap'
 
 
 const API_URL="https://api.themoviedb.org/3/movie/top_rated?api_key=414eec00dd3b35b52e5201e1ec693543"
-const API_SEARCH ="https://api.themoviedb.org/3/search/movie?api_key=414eec00dd3b35b52e5201e1ec693543&query";
+
 function App() {
 
   const [movies, setMovies]=useState([]);
@@ -44,9 +44,8 @@ function App() {
       <Container fluid>
         <Navbar.Brand href="/home">MovieBox</Navbar.Brand>
         
-        <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
-
-          <Navbar.Collapse id='navbarScrool'>
+        <Navbar.Toggle  />
+          <Navbar.Collapse >
             <Nav
             className="me-auto my-2 my-lg-3"
             style={{maxHeight: '100px'}}
