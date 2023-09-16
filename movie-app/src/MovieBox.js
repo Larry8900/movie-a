@@ -1,4 +1,4 @@
-import {Button, Modal, } from 'react-bootstrap';
+import {Button, Modal, show} from 'react-bootstrap';
 import React, {useState} from 'react';
 
 const API_IMG ="https://image.tmdb.org/t/p/original/"
@@ -21,7 +21,7 @@ const MovieBox =({title,poster_path,id, vote_average, release_date, overview })=
                 <h5 > IMDb </h5> 
                 <p data-testid="movie-overview" >{overview}</p>
                     <button type='button' className='btn btn-dark' onClick={handleShow}>View more</button>
-                    <Modal onShow={show} onHide={handleClose}>
+                    <Modal show={show} onHide={handleClose}>
                         <Modal.Header closeButton>
                             <Modal.Title></Modal.Title>
                         </Modal.Header>
