@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import './App.css';
-import MovieBox from './MovieBox'
+import MovieBox from './MovieBox';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Container, Nav,Form, FormControl, Button} from 'react-bootstrap';
 
